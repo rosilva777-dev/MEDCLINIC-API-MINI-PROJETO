@@ -53,8 +53,6 @@ No Linux/macOS:
 cp .env
 ```
 
-Crie o banco:
-
 ```sql
 CREATE DATABASE medclinic;
 ```
