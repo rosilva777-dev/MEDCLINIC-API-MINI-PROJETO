@@ -258,34 +258,3 @@ curl http://localhost:3000/users/me -H "Authorization: Bearer SEU_TOKEN"
 curl http://localhost:3000/admin/ping -H "Authorization: Bearer SEU_TOKEN"
 ```
 
-## Git
-
-Branches mínimas previstas:
-
-```text
-main
-develop
-feat/setup-projeto
-feat/auth
-feat/rbac
-docs/readme
-```
-
-Exemplos de commits semânticos:
-
-```text
-feat: cria estrutura inicial do projeto
-feat: configura conexão com PostgreSQL via TypeORM
-feat: cria entidade de usuário
-feat: implementa cadastro de usuários
-feat: implementa criptografia de senha com bcrypt
-feat: implementa login com emissão de JWT
-feat: implementa middleware de autenticação
-feat: implementa middleware de autorização RBAC
-feat: cria endpoints de verificação users/me e admin/ping
-refactor: organiza camadas da aplicação
-fix: corrige tratamento de token expirado
-docs: atualiza README
-```
-
-O histórico deve demonstrar evolução incremental do projeto.
