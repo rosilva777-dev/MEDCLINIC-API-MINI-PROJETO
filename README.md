@@ -33,7 +33,7 @@ As funcionalidades de especialidades, médicos, pacientes e consultas ficam para
 
 - Node.js 20+
 - PostgreSQL 14+
-- npm
+- npm install
 
 ## Instalação
 
@@ -41,16 +41,16 @@ As funcionalidades de especialidades, médicos, pacientes e consultas ficam para
 npm install
 ```
 
-Copie `.env.example` para `.env` e ajuste as credenciais:
+Copie `.env` para `.env` e ajuste as credenciais:
 
 ```bash
-copy .env.example .env
+copy .env
 ```
 
 No Linux/macOS:
 
 ```bash
-cp .env.example .env
+cp .env
 ```
 
 Crie o banco:
