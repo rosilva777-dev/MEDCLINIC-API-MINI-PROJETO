@@ -1,5 +1,4 @@
-# Histórico sugerido
-
+# Histórico sugerida
 1. `feat: cria estrutura inicial do projeto`
 2. `feat: configura conexão com PostgreSQL via TypeORM`
 3. `feat: cria entidade de usuário`
